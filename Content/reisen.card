@@ -1,0 +1,17 @@
+{
+  "Name": "铃仙",
+  "CardTags": 128,
+  "desc": "铃仙·优昙华院·因幡,拥有操控狂气程度的能力的月兔",
+  "MaxHP": 40,
+  "HP": 40,
+  "ATK": 25,
+  "AttackTimes": 1,
+  "CRIT": 0,
+  "Rare": 1,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
