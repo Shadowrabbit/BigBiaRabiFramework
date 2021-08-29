@@ -6,7 +6,7 @@
 --      /  \\        @Modified   2021-08-29 15:44
 --    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 -- ******************************************************************
-require "RabiSquareFrameWork/Class"
+require "Base/Class"
 
 --- @brief
 --- @class BaseSkillLogic

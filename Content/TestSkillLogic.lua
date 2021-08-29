@@ -6,8 +6,8 @@
 --      /  \\        @Modified   2021-08-29 19:46
 --    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 -- ******************************************************************
-require "RabiSquareFrameWork/SkillGenerator"
-local TestSkill = require "RabiSquareFrameWork/TestSkill"
+require "Base/SkillGenerator"
+local TestSkill = require "Content/TestSkill"
 
 local testSkill = TestSkill()
 

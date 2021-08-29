@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/.idea.BigBiaRabiFramework.iml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Program Files (x86)\Steam\steamapps\common\Big Bia\Big Bia_Data\Mod\BigBiaRabiFramework\.idea\.idea.BigBiaRabiFramework.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

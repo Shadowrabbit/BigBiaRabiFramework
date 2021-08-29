@@ -6,8 +6,8 @@
 --      /  \\        @Modified   2021-08-29 19:10
 --    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 -- ******************************************************************
-require "RabiSquareFrameWork/Class"
-local BaseSkillLogic = require "RabiSquareFrameWork/BaseSkillLogic"
+require "Base/Class"
+local BaseSkillLogic = require "Base/BaseSkillLogic"
 
 --- @brief
 --- @class TestSkill : BaseSkillLogic
