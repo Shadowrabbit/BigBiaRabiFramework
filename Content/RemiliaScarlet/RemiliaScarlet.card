@@ -1,4 +1,4 @@
-{
+﻿{
   "Name": "蕾米莉亚",
   "CardTags": 128,
   "desc": "永远鲜红的幼月, 拥有操纵命运程度的能力",
@@ -8,7 +8,7 @@
   "AttackTimes": 2,
   "CRIT": 20,
   "Rare": 3,
-  "Model": "reisen",
+  "Model": "RemiliaScarlet",
   "CardLogicClassNames": [
     "TestSkillLogic"
   ],

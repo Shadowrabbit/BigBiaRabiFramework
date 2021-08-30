@@ -8,12 +8,12 @@
   "AttackTimes": 2,
   "CRIT": 20,
   "Rare": 3,
-  "Model": "reisen",
+  "Model": "AliceMargatroid",
   "CardLogicClassNames": [
     "TestSkillLogic"
   ],
   "HitEffect": "Effect/武道家02",
   "ShotEffect": "Effect/武道家01"
 }
-//咒符「蓬莱人偶」
+//诅咒「上吊的蓬莱人偶」
 //所有剩余格子放置人偶

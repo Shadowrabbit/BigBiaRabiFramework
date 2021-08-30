@@ -8,7 +8,7 @@
   "AttackTimes": 2,
   "CRIT": 20,
   "Rare": 3,
-  "Model": "reisen",
+  "Model": "HongMeirin",
   "CardLogicClassNames": [
     "TestSkillLogic"
   ],
