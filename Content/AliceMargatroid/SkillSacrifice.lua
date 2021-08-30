@@ -18,7 +18,7 @@ local SkillSacrifice = Class("SkillSacrifice", BaseSkillLogic)
 --- @public
 function SkillSacrifice:OnShowTips()
     self.myCardLogic.displayName = "狡猾的献祭"
-    self.myCardLogic.Desc = "回合结束时死亡并对随机单位造成自身攻击力的伤害"
+    self.myCardLogic.Desc = "回合结束时死亡并对前方敌人造成自身攻击力的伤害"
     self.myCardLogic.Color = CS.CardLogicColor.white
 end
 

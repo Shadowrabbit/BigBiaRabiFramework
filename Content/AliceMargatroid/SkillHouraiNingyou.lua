@@ -9,18 +9,21 @@
 require "Base/Class"
 local string = string
 local pairs = pairs
+local math = math
 local BaseSkillLogic = require "Base/BaseSkillLogic"
 
 --- @brief
 --- @class SkillHouraiNingyou : BaseSkillLogic
 local SkillHouraiNingyou = Class("SkillHouraiNingyou", BaseSkillLogic)
 
+local power = 0
+
 --- @brief 显示事件 鼠标悬浮在卡片上时，会调用该卡片身上所有技能的此事件
 --- @public
 function SkillHouraiNingyou:OnShowTips()
-    self.myCardLogic.NeedEnergyCount = CS.UnityEngine.Vector3Int(0, 0, 1);
-    self.myCardLogic.displayName = "诅咒「上吊的蓬莱人偶」"
-    local power = self.myCardLogic.Layers / 3
+    self.myCardLogic.NeedEnergyCount = CS.UnityEngine.Vector3Int(1, 0, 0);
+    self.myCardLogic.displayName = "诅咒:上吊的蓬莱人偶"
+    power = (self.myCardLogic.Layers + 1) / 3
     local powerPercent = string.format("%.2f", power * 100)
     self.myCardLogic.Desc = "在我方全部剩余格子召唤蓬莱人偶, 人偶的能力值为爱丽丝的" .. powerPercent .. "%"
     self.myCardLogic.Color = CS.CardLogicColor.blue
@@ -33,13 +36,13 @@ function SkillHouraiNingyou:OnUseSkill()
     for _, emptySlot in pairs(emptySlots) do
         local houraiNingyou = CS.Card.InitCardDataByID("HouraiNingyou")
         houraiNingyou:PutInSlotData(emptySlot)
-        houraiNingyou.MaxHP = self.myCardLogic.CardData.MaxHP
-        houraiNingyou.HP = self.myCardLogic.CardData.HP
-        houraiNingyou.ATK = self.myCardLogic.CardData.ATK
-        houraiNingyou.AttackTimes = self.myCardLogic.CardData.AttackTimes
-        houraiNingyou.CRIT = self.myCardLogic.CardData.CRIT
+        houraiNingyou.MaxHP = math.floor(self.myCardLogic.CardData.MaxHP * power)
+        houraiNingyou.HP = math.floor(self.myCardLogic.CardData.HP * power)
+        houraiNingyou._ATK = math.floor(self.myCardLogic.CardData.ATK * power)
+        houraiNingyou._AttackTimes = math.floor(self.myCardLogic.CardData.AttackTimes * power)
+        houraiNingyou._CRIT = math.floor(self.myCardLogic.CardData.CRIT * power)
     end
-    
+
     self.myCardLogic:ShowMe()
     self.myCardLogic.CardData.IsAttacked = true
 end

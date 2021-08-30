@@ -12,7 +12,7 @@
   "Price": 5,
   "CardLogicClassNames": [
     "MinionLogic",
-    "TestSkillLogic"
+    "SkillHouraiNingyouLogic"
   ],
   "HitEffect": "Effect/武道家02",
   "ShotEffect": "Effect/武道家01"

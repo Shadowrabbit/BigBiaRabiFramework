@@ -10,9 +10,9 @@
   "Rare": 3,
   "Model": "HouraiNingyou",
   "CardLogicClassNames": [
-    "TestSkillLogic"
+    "MinionLogic",
+    "SkillSacrificeLogic"
   ],
   "HitEffect": "Effect/武道家02",
   "ShotEffect": "Effect/武道家01"
 }
-//狡猾的献祭 回合结束自爆
