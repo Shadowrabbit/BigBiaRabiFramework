@@ -1,13 +1,13 @@
 {
   "Name": "铃仙",
   "CardTags": 128,
-  "desc": "铃仙·优昙华院·因幡,拥有操控狂气程度的能力的月兔",
-  "MaxHP": 40,
-  "HP": 40,
-  "ATK": 25,
-  "AttackTimes": 1,
-  "CRIT": 0,
-  "Rare": 1,
+  "desc": "狂气的月兔, 拥有操控疯狂程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
   "Model": "reisen",
   "CardLogicClassNames": [
     "TestSkillLogic"

@@ -1,0 +1,18 @@
+{
+  "Name": "因幡帝",
+  "CardTags": 128,
+  "desc": "幸运的白兔, 拥有使人类变得幸运程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//兔符「因幡的白兔」

@@ -1,6 +1,6 @@
 ﻿-- ******************************************************************
 --       /\ /|       @file       TestSkillLogic.lua
---       \ V/        @brief      
+--       \ V/        @brief      测试技能逻辑 供vanilla调用
 --       | "")       @author     Shadowrabbit, yingtu0401@gmail.com
 --       /  |                    
 --      /  \\        @Modified   2021-08-29 19:46

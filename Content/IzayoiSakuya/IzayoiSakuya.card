@@ -1,0 +1,19 @@
+{
+  "Name": "十六夜咲夜",
+  "CardTags": 128,
+  "desc": "红魔馆的女仆, 拥有操纵时间程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//奇术「幻惑误导」
+//正前方高频攻击

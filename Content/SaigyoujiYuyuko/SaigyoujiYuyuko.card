@@ -1,0 +1,19 @@
+{
+  "Name": "西行寺幽幽子",
+  "CardTags": 128,
+  "desc": "华胥的亡灵, 拥有操纵死亡程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//幽曲「埋骨于弘川 -亡灵-」
+//死亡后 下回合随机位置复活

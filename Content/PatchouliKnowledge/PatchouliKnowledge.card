@@ -1,0 +1,19 @@
+{
+  "Name": "帕秋莉",
+  "CardTags": 128,
+  "desc": "知识与避世的少女, 拥有使用魔法程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//水&火符「燃素之雨」
+//N次飞弹*自身攻击

@@ -1,0 +1,19 @@
+{
+  "Name": "博丽灵梦",
+  "CardTags": 128,
+  "desc": "乐园的巫女, 拥有飞翔于空中程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//宝符「阴阳宝玉」
+//前方敌人受到大量伤害并眩晕，受击者周围角色受到部分伤害

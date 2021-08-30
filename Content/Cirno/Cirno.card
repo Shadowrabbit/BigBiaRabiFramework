@@ -1,0 +1,19 @@
+{
+  "Name": "琪露诺",
+  "CardTags": 128,
+  "desc": "冰之妖精, 拥有操纵冷气程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//冰符「妖精旋转」
+//每行第一个敌人眩晕

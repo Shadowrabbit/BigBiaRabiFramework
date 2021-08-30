@@ -1,0 +1,19 @@
+{
+  "Name": "八云紫",
+  "CardTags": 128,
+  "desc": "境界的妖怪, 拥有操纵境界程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//结界「生与死的境界」
+//我方全体护盾 敌方全体伤害

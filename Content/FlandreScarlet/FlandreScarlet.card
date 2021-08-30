@@ -1,0 +1,19 @@
+{
+  "Name": "芙兰朵露",
+  "CardTags": 128,
+  "desc": "恶魔之妹, 拥有将一切悉数破坏程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//禁弹「折反射」
+//反弹本回合全部伤害给敌方

@@ -1,0 +1,19 @@
+{
+  "Name": "爱丽丝",
+  "CardTags": 128,
+  "desc": "七色的人偶使, 拥有操控人偶程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//咒符「蓬莱人偶」
+//所有剩余格子放置人偶

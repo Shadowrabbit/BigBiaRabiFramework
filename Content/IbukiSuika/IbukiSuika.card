@@ -1,0 +1,19 @@
+{
+  "Name": "伊吹萃香",
+  "CardTags": 128,
+  "desc": "小小的百鬼夜行, 拥有操纵密和疏程度的能力",
+  "MaxHP": 500,
+  "HP": 500,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 4,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//鬼火「超高密度磷祸术」
+//对随机1,2,4,8个敌人造成伤害

@@ -1,0 +1,19 @@
+{
+  "Name": "红美铃",
+  "CardTags": 128,
+  "desc": "华人小姑娘, 拥有使用气的程度的能力",
+  "MaxHP": 30,
+  "HP": 30,
+  "ATK": 50,
+  "AttackTimes": 2,
+  "CRIT": 20,
+  "Rare": 3,
+  "Model": "reisen",
+  "CardLogicClassNames": [
+    "TestSkillLogic"
+  ],
+  "HitEffect": "Effect/武道家02",
+  "ShotEffect": "Effect/武道家01"
+}
+//虹符「彩虹的风铃」	
+//攻击每行第一个敌人
