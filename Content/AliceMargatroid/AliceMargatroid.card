@@ -2,18 +2,18 @@
   "Name": "爱丽丝",
   "CardTags": 128,
   "desc": "七色的人偶使, 拥有操控人偶程度的能力",
-  "MaxHP": 30,
-  "HP": 30,
-  "ATK": 50,
-  "AttackTimes": 2,
+  "MaxHP": 20,
+  "HP": 20,
+  "ATK": 70,
+  "AttackTimes": 1,
   "CRIT": 20,
-  "Rare": 3,
+  "Rare": 4,
   "Model": "AliceMargatroid",
+  "Price": 5,
   "CardLogicClassNames": [
+    "MinionLogic",
     "TestSkillLogic"
   ],
   "HitEffect": "Effect/武道家02",
   "ShotEffect": "Effect/武道家01"
 }
-//诅咒「上吊的蓬莱人偶」
-//所有剩余格子放置人偶

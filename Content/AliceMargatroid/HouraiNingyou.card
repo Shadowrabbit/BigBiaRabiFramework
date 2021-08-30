@@ -6,7 +6,7 @@
   "HP": 1,
   "ATK": 10,
   "AttackTimes": 2,
-  "CRIT": 20,
+  "CRIT": 0,
   "Rare": 3,
   "Model": "HouraiNingyou",
   "CardLogicClassNames": [

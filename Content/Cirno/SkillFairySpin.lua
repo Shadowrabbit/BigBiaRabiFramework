@@ -20,4 +20,6 @@ function SkillFairySpin:OnShowTips()
     self.myCardLogic.Color = CS.CardLogicColor.blue
 end
 
+
+
 return SkillFairySpin
