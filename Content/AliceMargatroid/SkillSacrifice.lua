@@ -31,18 +31,25 @@ function SkillSacrifice:OnEndTurn(isPlayerTurn)
     end
 
     coroutine.yield(CS.DungeonOperationMgr.Instance.DungeonHandler:ChangeHp(self.myCardLogic.CardData, -self.myCardLogic.CardData.HP, nil))
-    local targets = self.myCardLogic:GetAllCurrentMonsters()
-    if targets.Count <= 0 then
+end
+
+--- @brief 击杀事件 任何单位被击杀都会触发
+--- @public
+--- @param target table 死亡的单位
+--- @param value number 死亡时受到的伤害
+--- @param from table 造成死亡的单位
+function SkillSacrifice:OnKill(target, value, from)
+    if target ~= self.myCardLogic.CardData then
         return
     end
 
-    for i = 0, targets.Count - 1 do
-        if (targets[i].CurrentCardSlotData:GetAttr("Col") == self.myCardLogic.CardData.CurrentCardSlotData:GetAttr("Col")) then
-            self.myCardLogic:GetChainLighting(self.myCardLogic.CardData.CardGameObject.transform.position, targets[i].CardGameObject.transform.position)
-            coroutine.yield(CS.DungeonOperationMgr.Instance.DungeonHandler:ChangeHp(targets[i], -self.myCardLogic.CardData.ATK, nil))
-            return
-        end
+    local targetMonster = self.myCardLogic:GetDefaultTarget()
+    if not targetMonster then
+        return
     end
+
+    self.myCardLogic:GetChainLighting(self.myCardLogic.CardData.CardGameObject.transform.position, targetMonster.CardGameObject.transform.position)
+    coroutine.yield(CS.DungeonOperationMgr.Instance.DungeonHandler:ChangeHp(targetMonster, -self.myCardLogic.CardData._ATK, nil))
 end
 
 return SkillSacrifice
